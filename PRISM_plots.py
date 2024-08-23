@@ -225,8 +225,8 @@ for year in range(1981,2024):
         prismC.append(croppedC)
         print(ymstr+' done.')
 
-#pd.DataFrame(np.array(prismCV)).to_csv('result/Central Valley Basin/PRISM_19812023.csv')
-#pd.DataFrame(np.array(prismC)).to_csv('result/Colorado Basin/PRISM_19812023.csv')
+pd.DataFrame(np.array(prismCV)).to_csv('result/Central Valley/PRISM_19812023.csv')
+pd.DataFrame(np.array(prismC)).to_csv('result/Colorado/PRISM_19812023.csv')
 
 #%% plotting for 1981 to 2022, for multi scale paper figure 1
 
